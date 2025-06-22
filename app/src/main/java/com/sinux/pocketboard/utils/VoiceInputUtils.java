@@ -9,7 +9,7 @@ import com.sinux.pocketboard.R;
 
 public class VoiceInputUtils {
 
-    private static final String VOICE_IME_PACKAGE = "com.google.android.googlequicksearchbox";
+    private static final String VOICE_IME_PACKAGE = "org.futo.voiceinput";
 
     public static void launchVoiceIME(InputMethodService inputMethodService) {
         InputMethodManager imm = (InputMethodManager) inputMethodService.getSystemService(Context.INPUT_METHOD_SERVICE);
